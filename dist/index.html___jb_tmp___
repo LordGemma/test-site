@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Site</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="libs/animate.css/animate.min.css">
+    <link rel="stylesheet" href="libs/slick/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-responsive" src="" alt="Fasad">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#">Хто ми</a></li>
+                    <li><a href="#">Наша спеціалізація</a></li>
+                    <li><a href="#">Чому ми</a></li>
+                    <li><a href="#">Галерея об'ектів</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="section-slider">
+    <div id="slider">
+        <div class="slider-item">
+            <div class="item-block">
+                <div class="slider-desc">
+                    <h2>Lorem ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, totam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, totam.</p>
+                    <a href="" class="btn">Докладніше</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item">
+            <div class="item-block">
+                <div class="slider-desc">
+                    <h2>Corrupti, dicta.</h2>
+                    <p>Autem, laudantium. Obcaecati corporis, tempora et asperiores vel magni sequi!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, totam.</p>
+                    <a href="" class="btn">Докладніше</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item">
+            <div class="item-block">
+                <div class="slider-desc">
+                    <h2>Dolore, dolor.</h2>
+                    <p>Illum fugit culpa nam voluptatum optio ipsum veniam repellat quaerat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, totam.</p>
+                    <a href="" class="btn">Докладніше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-about">
+    <div class="container">
+        <h1 class="text-center">Вітаємо на нашому сайті</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-desc">
+                    <img class="img-responsive" src="img/builder.jpg" alt="about">
+                    <h3>Хто ми?</h3>
+                    <p>ПП «Фасад»  з  2000 року   займається  консалтингом,  проектуванням,
+                        постачанням і монтажем скляних огороджуючих конструкцій, а також
+                        вентильованих  фасадів  із  алюмінієвих  композитних  панелей,
+                        керамограніту, HPL-панелей, титан-цинку та натурального дерева.</p>
+                    <a href="#">Докладніше</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="title">Наші переваги</h3>
+                <div class="row about-main-block">
+                    <div class="col-md-6 about-child-block">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                        <h3>Lorem ipsum</h3>
+                        <p>Професіональна і злагоджена команда архітекторів,
+                            конструкторів, менеджерів і монтажників;
+                        </p>
+                    </div>
+                    <div class="col-md-6 about-child-block">
+                        <i class="fa fa-line-chart" aria-hidden="true"></i>
+                        <h3>Lorem ipsum</h3>
+                        <p>Великий досвід реалізації нестандартних об'єктів;</p>
+                    </div>
+                    <div class="col-md-6 about-child-block">
+                        <i class="fa fa-industry" aria-hidden="true"></i>
+                        <h3>Lorem ipsum</h3>
+                        <p>Сучасна виробнича база та спеціалізоване
+                            обладнання для монтажу фасадів;
+                        </p>
+                    </div>
+                    <div class="col-md-6 about-child-block">
+                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                        <h3>Lorem ipsum</h3>
+                        <p>Практика впровадження і розробки інноваційних
+                            фасадних системних рішень;
+                        </p>
+                    </div>
+                    <div class="col-md-6 about-child-block">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h3>Lorem ipsum</h3>
+                        <p>Кооперація з надійними європейськими партнерами
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-services">
+    <img class="img-responsive" src="img/worker.png" alt="worker">
+    <div class="container">
+        <h1 class="text-center">Етапи виконання замовлення</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service-item">
+                    <h2 class="text-center">.01</h2>
+                    <h3 class="text-center">Проектування</h3>
+                    <p>Завдяки партнерським відносинам з рядом  відомих   європейських
+                        фірм  та   архітектурних  бюро  фірма  «Фасад»  пропонує  найсучасніші
+                        технологічні  рішення  в  сфері  зовнішніх  огороджуючих   конструкцій
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-item">
+                    <h2 class="text-center">.02</h2>
+                    <h3 class="text-center">Постачання</h3>
+                    <p>Виробничий   підрозділ  ПП  «Фасад»  площею  0,5 га  розташований  в
+                        м. Луцьку, розташований за 70 км від кордону з ЄС, що дає можливість в
+                        найкоротший термін здійснювати прямі поставки матеріалів
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-item">
+                    <h2 class="text-center">.03</h2>
+                    <h3 class="text-center">Монтаж</h3>
+                    <p>ПП  «Фасад»,   використовуючи  16-річний   досвід,  виконує повний
+                        комплекс  робіт  по  влаштуванню  огороджуючих  конструкцій  з
+                        високотехнологічних  матеріалів,  починаючи  з  даху  і  закінчуючи
+                        вхідними групами.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-projects">
+    <h1 class="text-center">Галерея виконаних робіт</h1>
+    <div class="gallery">
+        <ul class="clearfix">
+            <li>
+                <a href="#" title="Birkenau" target="_blank">
+                    <img src="img/gallery/img1.jpg" alt="" />
+                    <div class="info">
+                        <h3 class="title">Birkenau</h3></div>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Black And White Railway Bridge Railway Bridge" target="_blank">
+                    <img src="img/gallery/img2.jpg" alt="" />
+                    <div class="info">
+                        <h3 class="title">Railway Bridge</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Locomotive" target="_blank">
+                    <img src="img/gallery/img3.jpg" alt="" />
+                    <div class="info">
+                        <h3 class="title">Locomotive</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Oldtimer" target="_blank">
+                    <img src="img/gallery/img4.jpg" alt="" />
+                    <div class="info">
+                        <h3 class="title">Oldtimer</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Varshava" target="_blank">
+                    <img src="img/gallery/img9.jpg" alt="" />
+                    <div class="info">
+                        <h3 class="title">ТЦ "Варшава"</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Roses" target="_blank">
+                    <img src="img/gallery/img10.jpg" alt="" />
+                    <div class="info">
+                        <h3 class="title">Roses</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Dandelion" target="_blank">
+                    <img src="img/gallery/img11.jpg" alt="" />
+                    <div class="info">
+                        <h3 class="title">Dandelion</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Eiffel Tower" target="_blank">
+                    <img src="img/gallery/img12.jpg" alt="" />
+                    <div class="info">
+                        <h3 class="title">Eiffel Tower</h3>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div><!-- .gallery -->
+    <a href="#" class="btn">Галерея робіт</a>
+</section>
+
+<section class="section section-testimonials">
+    <div class="container">
+        <h1 class="text-center">Відгуки наших клієнтів</h1>
+        <div class="recall-block">
+            <div class="recall-item">
+                <img class="img-responsive" src="img/man.png" alt="" class="img-responsive">
+                <p><span class="left">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, placeat.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, placeatspan <span class="right">"</span></p>
+                <h3>John Dow</h3>
+            </div>
+            <div class="recall-item">
+                <img class="img-responsive" src="img/man.png" alt="" class="img-responsive">
+                <p><span class="left">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, placeat.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, placeatspan <span class="right">"</span></p>
+                <h3>John Dow</h3>
+            </div>
+            <div class="recall-item">
+                <img class="img-responsive" src="img/man.png" alt="" class="img-responsive">
+                <p><span class="left">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, placeat.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, placeatspan <span class="right">"</span></p>
+                <h3>John Dow</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-clients">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="clients-item">
+                    <a href="#">
+                        <img src="img/apex.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="clients-item">
+                    <a href="#">
+                        <img src="img/apex.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="clients-item">
+                    <a href="#">
+                        <img src="img/apex.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="clients-item">
+                    <a href="#">
+                        <img src="img/apex.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="clients-item">
+                    <a href="#">
+                        <img src="img/apex.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="clients-item">
+                    <a href="#">
+                        <img src="img/apex.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-block">
+    <div class="gradient"></div>
+</section>
+
+<footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 left-block">
+                    <div class="row wrapper-block">
+                        <div class="about-us">
+                            <h3>Про нас</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus soluta voluptate fugit voluptates accusamus, error culpa fugiat impedit nisi facilis.</p>
+                        </div>
+                        <div class="contact-us">
+                            <h3>Зв'язатися з нами</h3>
+                            <ul class="footer-nav nav">
+                                <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Ukraine, Poltava, str. Poltavskaya</span></li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i><span>example@example.com</span></li>
+                                <li><i class="fa fa-phone-square" aria-hidden="true"></i><span>+38( 099 ) 99 99 999</span></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 right-block">
+                    <h3>Зворотній зв'язок</h3>
+                    <div class="footer-contact-form">
+                        <form role="form" class="clearfix">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="text" placeholder="Ваше им'я">
+                                <input type="email" class="form-control" id="email" placeholder="Email адреса">
+                            </div>
+
+                            <textarea name="text" class="text-field" cols="30" rows="3" placeholder="Ваше повідомлення"></textarea>
+
+                            <button type="submit" class="btn btn-default">Відправити</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        &copy; Copyright 2016.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.0.min.js"><\/script>')</script>
+<script src="./js/vendor/bootstrap.min.js"></script>
+<script src="./libs/waypoint/lib/jquery.waypoints.min.js"></script>
+<script src="./libs/slick/slick/slick.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

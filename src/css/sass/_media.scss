@@ -1,0 +1,240 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .footer {
+    .footer-top {
+      .right-block {
+        display: none;
+      }
+    }
+  }
+  .section-about-us {
+    padding: 30px 0;
+    p {
+      text-align: center;
+    }
+    .about__descr {
+      margin-bottom: 15px;
+      text-align: center;
+      img {
+        margin: 0 auto 15px;
+      }
+    }
+    .sertification {
+      img {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .section-skills {
+    .tabs {
+      .tabs__controls {
+        .tabs__controls-item {
+          .tabs__controls-link {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+    .tabs__list {
+      .tabs__item {
+        .tabs__item-block {
+          li {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  header {
+    .navbar {
+      .navbar-nav {
+        li {
+          text-align: center;
+          a {
+            text-align: center;
+          }
+          &:not(:last-child) {
+            a:after {
+              display: none;
+            }
+          }
+        }
+      }
+      .navbar-header {
+        .navbar-brand {
+          top: -16px;
+        }
+      }
+    }
+  }
+  .navbar-brand>img {
+    width: 70%;
+  }
+  .section-slider {
+    .slider-item {
+      padding: 100px 0;
+      .item-block {
+        display: none;
+      }
+    }
+  }
+  .section {
+    padding: 30px 0;
+  }
+  .title-block {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .section-about {
+    padding-bottom: 175px;
+    h3 {
+      font-size: 16px !important;
+      text-align: center;
+    }
+    .about-desc {
+      padding-right: 0;
+      text-align: center;
+      margin-bottom: 15px;
+      img {
+        margin: auto;
+      }
+    }
+  }
+  .section-services {
+    &>img {
+      max-width: 300px;
+      top: -182px;
+      margin-left: -145px;
+    }
+    .service-item {
+      margin-bottom: 15px;
+      h2 {
+        font-size: 40px;
+      }
+    }
+  }
+  .section-projects {
+    display: none;
+  }
+  .section-testimonials {
+    .recall-block {
+      .recall-item {
+        p {
+          width: 70%;
+        }
+      }
+    }
+  }
+  .footer {
+    .footer-top {
+      .left-block {
+        .wrapper-block {
+          .about-us {
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+    .footer-bottom {
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  .section-skills {
+    .tabs {
+      margin-bottom: 15px;
+      .tabs__controls {
+        .tabs__controls-item {
+          .tabs__controls-link {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .footer {
+    .footer-top {
+      h3 {
+        text-align: center;
+      }
+      .left-block {
+        .wrapper-block {
+          .about-us {
+            text-align: center;
+          }
+          .contact-us {
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+  .banner {
+    padding: 30px;
+    h3 {
+      font-size: 30px;
+    }
+  }
+
+  .section-contacts {
+    .contact-us {
+      margin-bottom: 15px;
+      .nav {
+        li {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
